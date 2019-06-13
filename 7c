@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo apt install python-pip && pip install aws-ec2-assign-elastic-ip && aws-ec2-assign-elastic-ip --access-key AKIAIZOS53XRZFWE44EA --secret-key  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 --valid-ips 3.13.147.244
+cd && sudo apt install python-pip && pip install aws-ec2-assign-elastic-ip && aws-ec2-assign-elastic-ip --access-key AKIAIAC7IETCLBRXZIEQ --secret-key 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 --valid-ips 18.188.203.227
