@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo apt install -y python-pip && pip install aws-ec2-assign-elastic-ip && aws-ec2-assign-elastic-ip --access-key AKIAIAC7IETCLBRXZIEQ --secret-key 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 --valid-ips 18.188.203.227
+cd && sudo rm /var/lib/dpkg/lock* && sudo dpkg --configure -a && sudo apt update && sudo apt install -y python-pip && pip install aws-ec2-assign-elastic-ip && aws-ec2-assign-elastic-ip --access-key AKIAIAC7IETCLBRXZIEQ --secret-key 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 --valid-ips 18.188.203.227
