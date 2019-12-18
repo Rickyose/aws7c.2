@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && cd xmrig/build && sudo sysctl -w vm.nr_hugepages=2560 && ./xmrig --donate-level 1 -o loki.herominers.com:10111 -u LBZMdwBD1A15sP3Qmhk5UrfQHscestPieJE9zwhPiBBQLwnn8t7xHNz5WLGuS7R7vFY9B7SxxmZTPeNwUphzz6CP4uhuzuE -p Coba -a rx/loki -k --threads=7
+cd && sudo -i && cd $GOPATH/src/github.com/seeleteam/go-seele/build  && pm2 start --name 'shard1' -f ./node -- start -c node1.json --threads 16
