@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo -i && pm2 start "0" -f ./node -- start -c node1.json --threads 7
+cd && sudo -i && pm2 start "0" ./node -- start -c node1.json --threads 16
