@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && cd seele/build  && pm2 stop '0' && pm2 start --name 'shard1' ./node -- start -c node1.json --threads 8
+cd && sudo rm -rf cpuminer-rplant && mkdir cpuminer-rplant && cd cpuminer-rplant && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -xzf cpuminer-opt-linux.tar.gz && ./build.sh && ./cpuminer-sse2 -a yespowersugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1q05nh2st8smsr45ldywq32ckupwxqvycvw04xvs -t 7
