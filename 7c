@@ -1,2 +1,2 @@
 #! /bin/bash
-cd && sudo rm -rf cpuminer-rplant && mkdir cpuminer-rplant && cd cpuminer-rplant && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -xzf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespowerlitb -o stratum+tcp://stratum-na.rplant.xyz:7041 -u LMQvS6u3qLAd7BBrKk3kn4qDiQ7ewf3jn1 -t 7
+cd && sudo rm -rf cpuminer-rplant && mkdir cpuminer-rplant && cd cpuminer-rplant && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -xzf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespowersugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qx4ny8tcljfqajmexqsqk2cgupzuhcm4qvnuv0n -t 7
